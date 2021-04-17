@@ -1,15 +1,15 @@
 public class P03Number {
     public static void main(String[] args) {
-        Sample2.number1();
-        Sample2.number2();
-        Sample2.number3();
-        Sample2.number4();
-        Sample2.number5();
-        Sample2.number6();
+        Sample3.number1();
+        Sample3.number2();
+        Sample3.number3();
+        Sample3.number4();
+        Sample3.number5();
+        Sample3.number6();
     }
 }
 
-class Sample2 {
+class Sample3 {
     public static void number1() {
         System.out.println(1 + 2);
     }

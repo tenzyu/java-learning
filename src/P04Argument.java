@@ -1,11 +1,11 @@
 class P04Argument {
     public static void main(String[] args) {
-        Sample3.argument1(args);
-        Sample3.argument2(args);
+        Sample4.argument1(args);
+        Sample4.argument2(args);
     }
 }
 
-class Sample3 {
+class Sample4 {
     public static void argument1(String[] args) {
         System.out.println("Args0 = " + args[0]);
         System.out.println("Args1 = " + args[1]);

@@ -1,13 +1,13 @@
 public class P02Variable {
     public static void main(String[] args) {
-        Sample.variable1();
-        Sample.variable2();
-        Sample.variable3();
-        Sample.variable4();
+        Sample2.variable1();
+        Sample2.variable2();
+        Sample2.variable3();
+        Sample2.variable4();
     }
 }
 
-class Sample {
+class Sample2 {
     public static void variable1() {
         int a;
         a = 1;
