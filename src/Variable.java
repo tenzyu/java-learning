@@ -3,6 +3,7 @@ public class Variable {
         Sample.variable1();
         Sample.variable2();
         Sample.variable3();
+        Sample.variable4();
     }
 }
 
@@ -25,5 +26,17 @@ class Sample {
         System.out.println(text);
         text = "second";
         System.out.println(text);
+    }
+
+    public static void variable4() {
+        String s1 = "ABC" + "DEF";
+        System.out.println(s1);
+
+        String bar = "Bar";
+        String s2 = "Foo" + bar;
+        System.out.println(s2);
+
+        String s3 = "abc" + 123;
+        System.out.println(s3);
     }
 }
