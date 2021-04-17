@@ -2,4 +2,6 @@
     "java.project.sourcePaths": [
         "src"
     ],
+    "java.format.enabled": true,
+    "editor.formatOnSave": true
 }
