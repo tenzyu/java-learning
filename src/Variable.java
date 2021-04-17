@@ -15,6 +15,7 @@ class Sample {
 
     public static void variable2() {
         int a = 2;
+        // this 2 is called a literal.
         System.out.println(a);
     }
 
