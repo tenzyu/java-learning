@@ -1,4 +1,4 @@
-public class Variable {
+public class P02Variable {
     public static void main(String[] args) {
         Sample.variable1();
         Sample.variable2();
