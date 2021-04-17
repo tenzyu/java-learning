@@ -1,5 +1,5 @@
 public class Variable {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Sample.variable1();
         Sample.variable2();
         Sample.variable3();
@@ -7,18 +7,18 @@ public class Variable {
 }
 
 class Sample {
-    public static void variable1(){
+    public static void variable1() {
         int a;
         a = 1;
         System.out.println(a);
     }
 
-    public static void variable2(){
+    public static void variable2() {
         int a = 2;
         System.out.println(a);
     }
 
-    public static void variable3(){
+    public static void variable3() {
         String text;
         text = "first";
         System.out.println(text);
