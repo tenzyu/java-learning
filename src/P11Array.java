@@ -51,6 +51,11 @@ public class P11Array {
         for (int i = 0; i < a.length; i++) {
             p("a[" + i + "] = " + a[i]);
         }
+    }, () -> {
+        int[] a = { 10, 20, 30 };
+        for (int i = 0; i < a.length; i++) {
+            p("a[" + i + "] = " + a[i]);
+        }
     } };
 
     private static <T> void p(T value) {
