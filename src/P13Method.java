@@ -17,6 +17,9 @@ public class P13Method {
         p("after call");
     }, () -> {
         add(1, 2);
+    }, () -> {
+        int result = add2(2, 3);
+        p(result);
     } };
 
     static void doSomething() {
@@ -26,6 +29,10 @@ public class P13Method {
     static void add(int x, int y) {
         int num = x + y;
         p(num);
+    }
+
+    static int add2(int x, int y) {
+        return x + y;
     }
 
     private static <T> void p(T value) {
