@@ -12,8 +12,14 @@ public class P13Method {
     }
 
     private static Runnable[] flows = { () -> {
-        p("ready");
+        p("before call");
+        doSomething();
+        p("after call");
     } };
+
+    static void doSomething() {
+        p("called");
+    }
 
     private static <T> void p(T value) {
         System.out.println(value);
