@@ -15,10 +15,17 @@ public class P13Method {
         p("before call");
         doSomething();
         p("after call");
+    }, () -> {
+        add(1, 2);
     } };
 
     static void doSomething() {
         p("called");
+    }
+
+    static void add(int x, int y) {
+        int num = x + y;
+        p(num);
     }
 
     private static <T> void p(T value) {
