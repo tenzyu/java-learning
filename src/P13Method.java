@@ -20,6 +20,9 @@ public class P13Method {
     }, () -> {
         int result = add2(2, 3);
         p(result);
+    }, () -> {
+        int score = 76;
+        judgeScore(score);
     } };
 
     static void doSomething() {
@@ -33,6 +36,16 @@ public class P13Method {
 
     static int add2(int x, int y) {
         return x + y;
+    }
+
+    public static void judgeScore(int x) {
+        if (x > 50) {
+            p("Pass");
+
+        } else {
+            p("Faliure");
+
+        }
     }
 
     private static <T> void p(T value) {
